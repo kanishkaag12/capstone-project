@@ -1,1 +1,1 @@
-# my-project1
+# capstone-project
