@@ -1,6 +1,7 @@
 function Navigation() {
+    return (
     <div>
-        <img src="/Logo.svg"/>
+        <img src="src/assets/Logo.svg" alt="Little Lemon"/>
         <ul>
             <li><a href="" >Home</a></li>
             <li><a href="" >About</a></li>
@@ -9,6 +10,7 @@ function Navigation() {
             <li><a href="" >Login</a></li>
         </ul>
     </div>
+    )
 }
 
 export default Navigation;
