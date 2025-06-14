@@ -4,17 +4,17 @@ function Header() {
     return (
         <header>
             <section>
-                <div>
-                    <h2>Little Lemon</h2>
-                    <h3>Chicago</h3>
-                    <p>
-                        We are a family owned Mediterraneran restaurant, focused on
+                <div id="one">
+                    <h2 id="one-head">Little Lemon</h2>
+                    <h3 className="two-head">Chicago</h3>
+                    <p className="two-head" id="para">
+                        We are a family owned Mediterraneran restaurant,<br /> focused on
                         traditional recipes served with a modern twist.
                     </p>
-                    <button>start free trial</button>
+                    <button id="reserve">Reserve a table</button>
                 </div>
-                <div>
-                    <img src="src/assests/restauranfood.jpg" alt="food" />
+                <div id="two">
+                    <img src="src/assets/restauranfood.jpg" width="200px" height="250px" alt="food" />
                 </div>
             </section>
         </header>

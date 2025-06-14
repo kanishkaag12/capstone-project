@@ -1,6 +1,6 @@
 function Navigation() {
     return (
-    <div>
+    <div className="nav-bar">
         <img src="src/assets/Logo.svg" alt="Little Lemon"/>
         <ul>
             <li><a href="" >Home</a></li>
